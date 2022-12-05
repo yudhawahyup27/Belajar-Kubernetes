@@ -1,0 +1,1 @@
+Repositori ini adalah hasil dari belajar kubernetes di Codepolitan dengan tutor Eko Kurniawan

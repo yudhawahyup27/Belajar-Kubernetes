@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-anotations
+  labels:
+    enviroments: Production
+  annotations:
+    deskripsi: Ini adalah kubernetes untuk belajar
+spec:
+  containers:
+    - name: nginx
+      image: nginx
+      ports:
+        - containerPort: 80
